@@ -1,0 +1,149 @@
+article{
+  border: 1px solid #949494;
+  background-color: white;
+  border-radius: 6px;
+  margin: 20px 0px;
+}
+article div{
+  height: 80px;
+  padding-left: 10px;
+  padding-top: 25px;
+}
+article img{
+  border-radius: 6px;
+  float: left;
+  height: 40px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 40px;
+}
+article header{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #f5f3f3;
+  height: 50px;
+  margin: 0 auto;
+  width: auto;
+}
+
+article header .name{
+  float: left;
+  font-weight: bold;
+  color: #626769;
+}
+article footer{
+  border-top: 0.5px solid #efebeb;
+  font-size: 10px;
+  height: 30px;
+  padding-top: 10px;
+  padding-left: 8px;
+}
+
+article footer span.date{
+  float: left;
+}
+
+article footer span.icons{
+  color: #1fe8d0;
+  float: right;
+  visibility: hidden;
+}
+
+article:hover .icons{
+  visibility: visible;
+}
+
+article header .twitter-id{
+  margin-top: 2px;
+  font-size: 11px;
+  color: #737879;
+}
+
+article link{
+  z-index: 1;
+}
+
+form{
+  margin: 10px;
+}
+
+h2{
+  border-bottom: 1.2px solid black;
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 350px;
+  font-size: 29px;
+  margin-bottom: 20px;
+}
+
+main{
+  padding: 140px 40px 200px 40px;
+  width: 450px;
+  margin: 0 auto;
+  background-color: white;
+
+
+}
+
+#nav-bar{
+  background: #00a087;
+  height: 80px;
+  position: fixed;
+  color: #e8fdff;
+  width: 100%;
+  padding: 0 2em;
+
+}
+
+#nav-bar .logo{
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+#nav-bar .header{
+  float: left;
+  font-size: 200%;
+  line-height: 2.5;
+}
+
+#nav-bar .compose{
+  border: 1px solid black;
+  border-radius: 6px;
+  float: right;
+  padding:0px 6px;
+  margin-top: 15px;
+  width: 115px;
+  height: 55px;
+  color: #1a9889;
+  font-size: 18px;
+}
+
+#nav-bar .compose:hover{
+  cursor: pointer;
+  color: black;
+}
+
+section.new-tweet{
+  border: 1px solid #949494;
+  background: gainsboro;
+  border-radius: 6px;
+  display: none;
+  padding-bottom: 0.5px;
+}
+
+span{
+  float: right;
+  padding: 5px;
+}
+
+textarea{
+  width: 100%;
+  height: 3.5em;
+}
+
+
+.warning{
+  color: red;
+}
