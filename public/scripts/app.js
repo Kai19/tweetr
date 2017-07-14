@@ -24,8 +24,8 @@ $().ready(function(){
         })
         .done(loadTweets)
         .done($('form textarea').val(''));
+        alert('Tweet!');
       }
-      alert('Tweet!');
     }
 
   $('form').on('submit', handleNewTweets);
@@ -69,4 +69,5 @@ $().ready(function(){
     $('section.new-tweet').slideToggle('slow');
     $('section.new-tweet textarea').select();
   });
+  loadTweets();
 });
