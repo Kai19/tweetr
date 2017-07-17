@@ -6,7 +6,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 Final Product
 
-![demo]https://user-images.githubusercontent.com/28593613/28254205-688a1c84-6a5f-11e7-89be-e348eec5b760.png
+![demo](https://user-images.githubusercontent.com/28593613/28254205-688a1c84-6a5f-11e7-89be-e348eec5b760.png)
 
 ## Dependencies
 
